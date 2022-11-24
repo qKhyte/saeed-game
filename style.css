@@ -1,0 +1,113 @@
+body
+{
+    background-color: #333;
+}
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#saeed
+{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    transform: translate(-48%,-50%);
+}
+
+.buttons1
+{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #555;
+    cursor: pointer;
+}
+
+.buttons1:hover
+{
+    background-color: #222;
+}
+
+#feed
+{   
+    position: absolute;
+    left: 30%;
+    transform: translateX(-30%);
+    top: 40px;
+}
+
+#feedmenu
+{
+    width: 400px;
+    height: 500px;
+    border: 3px solid black;
+    top: 10px;
+    position: absolute;
+    border-radius: 10px;
+    left: 10px;
+    background-color: transparent;
+    display: none;
+}
+
+#food
+{
+    width: 80px;
+    height: 40px;
+    border: 1px solid red;
+    color: #fff;
+    background-color: #111;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#food:hover
+{
+    background-color: #222;
+}
+
+#shop
+{   
+    position: absolute;
+    right: 30%;
+    transform: translateX(30%);
+    top: 40px;
+}
+
+#shopmenu
+{
+    width: 400px;
+    height: 500px;
+    border: 3px solid black;
+    top: 10px;
+    position: absolute;
+    border-radius: 10px;
+    right: 10px;
+    background-color: transparent;
+    display: none;
+}
+
+
+
+
+
+
+
+#info {
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    user-select: none;
+}
+
